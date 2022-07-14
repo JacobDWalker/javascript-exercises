@@ -10,11 +10,11 @@ const sum = function(nums) {
   if (nums.length === 0) {
     return 0;
   }
-  return nums.reduce((a, b) => a + b);
+  return nums.reduce((a, b) => a + b, 0);
 };
 
 const multiply = function(nums) {
-  return nums.reduce((a, b) => a * b);
+  return nums.reduce((a, b) => a * b, 0);
 };
 
 const power = function(num, power) {
